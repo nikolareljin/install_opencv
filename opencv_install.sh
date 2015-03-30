@@ -14,7 +14,7 @@ pwd=${PWD};
 # params
 cuda="7.0";
 install_dir="/usr/local";
-projects="/home/$HOME/Projects";
+projects="/home/$USER/Projects";
 # git source locations
 opencv_git="opencv-git";
 opencv_git_contrib="opencv-git-contrib";
