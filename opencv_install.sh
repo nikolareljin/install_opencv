@@ -14,7 +14,7 @@ pwd=${PWD};
 # params
 cuda="7.0";
 install_dir="/usr/local";
-projects="/home/nikos/Projects";
+projects="/home/$HOME/Projects";
 # git source locations
 opencv_git="opencv-git";
 opencv_git_contrib="opencv-git-contrib";
@@ -25,13 +25,7 @@ opencv_git_extra="opencv-git-extra";
 clean_libraries(){
 	show_text "Clean the $install_dir/lib"
 	cd $install_dir/lib;
-	
-	# backup libraries
-	mkdir $projects/_BAK;
-	mkdir $projects/_BAK/lib;
-	
-	sudo mv -rf libopencv_* $projects/_BAK/lib;
-	#sudo rm -rf libopencv_*;
+	sudo rm -rf libopencv_*;
 }
 
 # ------------------------------------------
