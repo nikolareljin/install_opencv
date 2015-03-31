@@ -1,2 +1,2 @@
-# install_opencv
+# Install OpenCV
 Install OpenCV on Ubuntu
